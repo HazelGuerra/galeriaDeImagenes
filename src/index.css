@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.titulo{
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor{
+  margin: 10px 30px;
+}
+
+.cartas{
+  display: flex;
+
+  justify-content:space-around;
+}
+
+h3{
+  color: burlywood;
+}
+.carta{
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 18rem;
+  color: #ccc;
+}
+
+.carta-img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.carta-body{
+  padding: 10px;
+}
+
+.abajo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ccc;
+}
+
+
